@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+article > h2 {
+          background-color: #F2C1D1;
+          color: white;
+          font-size: 1.6em;
+          text-shadow:  1px 1px 0.5px #D4AF37, 1px 1px 12px black;
+          font-family: "Fontdiner Swanky", serif;
+          text-align: center;
+          padding: 8px;
+          margin: 1em 20px;
+          border-radius: 6px;
+        }
+          article > img {
+          float: right; /* Coloca la imagen a la derecha y hace que el texto fluya alrededor */
+          width: 16%;
+          height: auto;
+          
+        }
+
+       .moraleja::before {
+  content: "Moraleja";
+  font-family: "Fontdiner Swanky", serif;
+  color: #FFE4E1;
+  text-shadow: 0.5px 0.5px 0px #F2C1D1;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 1.1em;
+  display: block;     /* Forzamos que la palabra "Moraleja" ocupe toda una línea */
+  text-align: center; /* Para centrar el texto */
+  margin-bottom: 5px; /* Espacio entre el título y el párrafo */
+}
+ article > p:last-of-type::after {
+          content: "";
+          display: block;
+          width: 100%;      /* Ajusta el tamaño según necesites */
+          height: 50px;     /* Alto de la imagen separadora */
+          background-image: url("banner.png"); 
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-top: 20px; /* Espacio entre el párrafo y la imagen */
+          background-size: contain;
+        }
+          article > p:first-of-type::first-letter {
+          font-family: "Fontdiner Swanky", serif;
+          font-size: 3em;    /* Aumenta el tamaño para que ocupe varias líneas */
+          line-height: 1.5;
+          color: white;
+          background-color: #81D8D0;
+          text-shadow: 0.5px 0.5px 0.5px black;
+          padding: 0 7px;
+          float: left; /* Hace que el texto fluya alrededor */
+          margin-right: 10px;
+        }
+        address{
+            text-align: right;
+            font-family:"Nunito";
+            color: red;
+            font-size: 20px;
+
+        }
+        .moraleja{
+          margin: 0 auto;
+         width: 70%;
+background-color: gray;
+color: white;
+align-content: center;
+text-align: center;
+border-radius: 10px;
+        }
+        article{
+            width: 90%;
+            margin: 0 auto;
+        }
